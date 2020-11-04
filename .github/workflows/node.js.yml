@@ -25,14 +25,10 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
-      working-directory: reactapp2
     - run: npm run build --if-present
-      working-directory: reactapp2
     - run: npm test
-      working-directory: reactapp2
     
     - name: Deploy
-      working-directory: reactapp2
       run: |
         git config --global user.name $user_name
         git config --global user.email $user_email
@@ -41,5 +37,5 @@ jobs:
       env:
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
-        github_token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN2 }}
+        github_token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN3 }}
         repository: ${{ github.repository }}
