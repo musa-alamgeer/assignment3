@@ -9,7 +9,7 @@ function App() {
         <p>
           Musa Alamgeer 2017352 - Assignment 3
         </p>
-        <p>Finally Deployed to Heroku
+        <p>Deployed to Heroku
         </p>
         <a
           className="App-link"
