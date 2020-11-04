@@ -8,7 +8,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Musa Alamgeer 2017352 - Assignment 3
-    Today is Wednesday!
+        </p>
+        <p>Finally Deployed to Heroku
         </p>
         <a
           className="App-link"
