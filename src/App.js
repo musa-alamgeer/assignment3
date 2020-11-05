@@ -10,8 +10,7 @@ function App() {
           Musa Alamgeer 2017352 - Assignment 3
         </p>
         <p>
-          Deployed to Heroku
-          CI Works before deployment on heroku
+          CI WORKS ON GITHUB & LATER GETS DEPLOYED AUTOMATICALLY ON HEROKU
         </p>
         <a
           className="App-link"
