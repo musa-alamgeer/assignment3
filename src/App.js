@@ -10,7 +10,7 @@ function App() {
           Musa Alamgeer 2017352 - Assignment 3
         </p>
         <p>
-          CI WORKS ON GITHUB & LATER GETS DEPLOYED AUTOMATICALLY ON HEROKU
+          Today is Friday
         </p>
         <a
           className="App-link"
